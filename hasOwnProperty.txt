@@ -1,0 +1,10 @@
+var Mobile = {
+type: "iphone",
+ model: "XS",
+ color : "black",
+fullName : function() {
+ return this. type + " " + this.model;
+}
+};
+document.write("color" in Mobile);
+document.write("<br>"+Mobile.hasOwnProperty("color"));

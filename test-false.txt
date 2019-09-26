@@ -1,0 +1,9 @@
+var Mobile = {
+type: "iphone",
+ model: "XS",
+ color : "black",
+fullName : function() {
+ return this. type + " " + this.model;
+}
+};
+document.write("id" in Mobile);
